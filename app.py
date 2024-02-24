@@ -6,7 +6,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.preprocessing.text import Tokenizer
 
-model_path = 'D:/Data Science/Data Visualization/Text Classifacation/model.h5'
+model_path = 'model.h5'
 loaded_model = load_model(model_path)
 
 #if os.path.exists(model_path):
